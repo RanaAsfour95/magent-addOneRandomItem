@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="magentoWebSiteTask1.test3">
+      <class name="magentoWebSiteTask1.addOneRandomItem">
         <methods>
-          <include name="myBeforeTest"/>
-          <include name="myTest"/>
+          <include name="mySetup"/>
+          <include name="signUpProccess"/>
         </methods>
-      </class> <!-- magentoWebSiteTask1.test3 -->
+      </class> <!-- magentoWebSiteTask1.addOneRandomItem -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
